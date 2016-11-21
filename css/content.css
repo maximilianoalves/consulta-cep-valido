@@ -1,0 +1,10 @@
+nav {
+	height: 150px;
+}
+nav .brand-logo.center{
+	top: 25%
+}
+ul{
+	list-style: none;
+	font-size: 30px;
+}
