@@ -7,7 +7,7 @@ $('#consultar').click(function (event) {
 	var cep = $("#cep").val();
 	cep = cep.replace('.', '');
 	cep = cep.replace('-', '');
-	var urlConsulta = 'http://api.postmon.com.br/v1/cep/' + cep;
+	var urlConsulta = 'https://api.postmon.com.br/v1/cep/' + cep;
 	$.ajax({
 	  url: urlConsulta,
 	  crossDomain: true,
